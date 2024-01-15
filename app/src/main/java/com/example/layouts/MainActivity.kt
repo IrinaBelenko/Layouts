@@ -9,8 +9,8 @@ import androidx.appcompat.widget.Toolbar
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.my_toolbar_layout)
-        val toolbar:Toolbar = findViewById(R.id.myToolbar)
+        setContentView(R.layout.activity_main)
+/*        val toolbar:Toolbar = findViewById(R.id.myToolbar)
         toolbar.title = "My toolbar"
         toolbar.inflateMenu(R.menu.my_menu)
         toolbar.setOnMenuItemClickListener { item ->
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
                 else -> Unit
             }
             true
-        }
+        }*/
 
     }
 }
