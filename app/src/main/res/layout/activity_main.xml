@@ -22,10 +22,9 @@
             android:id="@+id/background"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
-            android:background="@color/design_default_color_primary_dark"
+            android:background="@android:color/holo_blue_light"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
-
         </View>
 
         <ImageView
@@ -44,7 +43,6 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
-
             android:text="Name"
             app:layout_constraintBottom_toTopOf="@+id/position"
             app:layout_constraintStart_toEndOf="@+id/photo"
@@ -78,7 +76,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
-            android:layout_marginRight="8dp"
+
+            android:backgroundTint="@android:color/holo_red_dark"
             android:text="Email"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/phone"
@@ -88,10 +87,13 @@
             android:id="@+id/phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="50dp"
+            android:backgroundTint="@android:color/holo_red_dark"
             android:text="Phone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/email"
             app:layout_constraintTop_toBottomOf="@+id/biography" />
 
 
